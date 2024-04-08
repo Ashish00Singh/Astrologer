@@ -1,0 +1,198 @@
+.top-icon {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top-sun-icon {
+    width: 10%;
+
+}
+
+
+
+.top-sun-icon1 {
+    width: 25%;
+
+}
+
+.posit {
+    position: relative;
+    top: 3.5vw;
+}
+.posit:hover{
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    width: 100%;
+    background-color: rgb(254,240,216);
+    color: black;
+}
+
+.nav-item .nav-link {
+    color: black;
+}
+
+
+
+.I-st-Section {
+    position: relative;
+}
+
+.giblogo {
+    position: absolute;
+    width: 10%;
+    top: 87%;
+    left: 45%;
+    z-index: 2;
+   
+
+}
+
+.top {
+    width: 100%;
+}
+
+
+.II-nd-Section {
+    display: flex;
+    justify-content:space-evenly;
+    /* flex-wrap: wrap; */
+    width: 100%;
+}
+
+.left {
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+
+}
+
+.left-1 {
+    z-index: 3;
+    width: 72%;
+    padding: 10px;
+    background-color: rgb(254, 240, 216);
+}
+
+.chat {
+    width: 100%;
+}
+
+
+
+
+
+.btn-lii {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 0px 0px 15px 15px;
+    border-top: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    font-size: medium;
+}
+
+
+.btn-sty {
+    background-color: rgb(254, 240, 216);
+    position: relative;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.sun {
+    position: absolute;
+    width: 16%;
+    left: 93%;
+    top: 16%;
+}
+
+.btn {
+    text-align: center;
+
+}
+
+
+.left-2 {
+    position: relative;
+    width: 100%;
+    background-color: chocolate;
+}
+
+.opo{
+    position: relative;
+    left: -5%;
+    width: 106%;
+    background-color: rgb(254,254,241);
+    border-left: 25px solid white;
+    border-bottom: 25px solid white;
+    border-radius: 0px 0px 0px 500px;
+}
+.leftimg{
+    width: 100%;
+}
+
+.form-aree{
+    text-align: center;
+    color: white;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    gap: 10px;
+}
+
+.inputsubmit, .inputtext{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+::placeholder{
+    color: white;
+}
+.inputsubmit{
+    background-color: white;
+}
+
+.right {
+    width: 100%;
+    background-color: rgb(254,254,241);
+    z-index: 1;
+    
+}
+.rightTop{
+    padding: 60px;
+    padding-top: 7%;
+    background-color: rgb(250,97,8);
+}
+.right-text{
+    font-size: large;
+    font-weight: 450;
+}
+.contact{
+    background-color: rgb(254,254,241);
+    margin: 20px;
+    border: 5px solid rgb(239, 215, 215);
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
